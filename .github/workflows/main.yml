@@ -1,0 +1,10 @@
+herename: VPS Setup
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Start VPS
+        run: echo "Connect to VPS and configure Windows"
